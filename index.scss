@@ -1,0 +1,75 @@
+:root {
+    --body-bg: #F5F5FB;
+    --side-bg: #FFFFFF;
+    --box-bg: #;
+    --box-gap: 20px;
+    --side-l-w: 200px;
+    --side-r-w: 250px;
+    }
+
+div{
+    display: flex;
+    width: 100%;
+    aside{
+        background-color:red ;
+        width:20%;
+        height: 800px;
+        nav{
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            div{
+                background-color: grey;
+                height: 30px;
+                margin: 20px 15px;
+            }
+            .primo{
+                width: 50px;
+            }
+            .secondo{
+                width: 85px;
+            }
+        }
+        section{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            padding-top: 30px;
+            div{
+                background-color: grey;
+                width: 80%;
+                height: 25px;
+            }
+        }
+        .ultima{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            div{
+                background-color: grey;
+                height: 120px; 
+                width:120px ;
+            }
+        }
+    }
+    main{
+        background-color: #C4C4C4;
+        justify-content: center;
+        width: 60%;
+        height: 800px;
+        nav{
+            display: flex;
+            justify-content: space-between;
+            div{
+                background-color: black;
+                height: 20px;
+            }
+            &:nth-of-type(1){
+                justify-self: flex-start;
+                
+            }
+        }
+    }
+}

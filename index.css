@@ -1,0 +1,74 @@
+:root {
+  --body-bg: #F5F5FB;
+  --side-bg: #FFFFFF;
+  --box-bg: #;
+  --box-gap: 20px;
+  --side-l-w: 200px;
+  --side-r-w: 250px;
+}
+
+div {
+  display: flex;
+  width: 100%;
+}
+div aside {
+  background-color: red;
+  width: 20%;
+  height: 800px;
+}
+div aside nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+div aside nav div {
+  background-color: grey;
+  height: 30px;
+  margin: 20px 15px;
+}
+div aside nav .primo {
+  width: 50px;
+}
+div aside nav .secondo {
+  width: 85px;
+}
+div aside section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+div aside section div {
+  background-color: grey;
+  width: 80%;
+  height: 25px;
+}
+div aside .ultima {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+div aside .ultima div {
+  background-color: grey;
+  height: 120px;
+  width: 120px;
+}
+div main {
+  background-color: #C4C4C4;
+  justify-content: center;
+  width: 60%;
+  height: 800px;
+}
+div main nav {
+  display: flex;
+  justify-content: space-between;
+}
+div main nav div {
+  background-color: black;
+  height: 20px;
+}
+div main nav:nth-of-type(1) {
+  justify-self: flex-start;
+}/*# sourceMappingURL=index.css.map */
